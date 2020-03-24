@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Asela.Samples.ServiceFabricScaling", "Asela.Samples.ServiceFabricScaling\Asela.Samples.ServiceFabricScaling.sfproj", "{961A2DB0-D01E-4B23-A730-76322298A0C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SFApp", "SFApp", "{66438F62-3E73-427E-B25A-801A0221EEE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D92D5FA8-DD36-45F7-ADDC-94E264C286A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Service", "services\Persistence.Service\Persistence.Service.csproj", "{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenceService", "PersistenceService", "{7B2B2D9F-99D0-49FF-990C-351F820C1235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.Biz", "services\Persistence.Biz\Persistence.Biz.csproj", "{CABDFF4D-7D49-4E7B-A00F-B761C624D216}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Debug|x64.ActiveCfg = Debug|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Debug|x64.Build.0 = Debug|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Debug|x64.Deploy.0 = Debug|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Release|Any CPU.ActiveCfg = Release|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Release|x64.ActiveCfg = Release|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Release|x64.Build.0 = Release|x64
+		{961A2DB0-D01E-4B23-A730-76322298A0C9}.Release|x64.Deploy.0 = Release|x64
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Debug|x64.Build.0 = Debug|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Release|x64.ActiveCfg = Release|Any CPU
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F}.Release|x64.Build.0 = Release|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Debug|x64.Build.0 = Debug|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Release|x64.ActiveCfg = Release|Any CPU
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{961A2DB0-D01E-4B23-A730-76322298A0C9} = {66438F62-3E73-427E-B25A-801A0221EEE4}
+		{6D36D1A2-455B-4CD0-BB75-444569D4CD7F} = {7B2B2D9F-99D0-49FF-990C-351F820C1235}
+		{7B2B2D9F-99D0-49FF-990C-351F820C1235} = {D92D5FA8-DD36-45F7-ADDC-94E264C286A6}
+		{CABDFF4D-7D49-4E7B-A00F-B761C624D216} = {7B2B2D9F-99D0-49FF-990C-351F820C1235}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99506ACD-C8E4-4FCF-A4ED-2D82F7632A81}
+	EndGlobalSection
+EndGlobal
